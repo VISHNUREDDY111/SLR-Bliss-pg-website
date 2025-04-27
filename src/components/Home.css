@@ -1,0 +1,42 @@
+.home{
+    /* height: 100vh; */
+    height: fit-content;
+    /* background-color: white; */
+    position: relative;
+    top: 4rem;
+   
+    
+}
+.Welcome{
+    margin-top: 2rem;
+    text-align: center;
+    color:white;
+}
+.home span{
+    color:orange;
+    font-weight: bolder;
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(159, 101, 101, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;  
+}
+.carosel{
+    /* height: 80vh; */
+    position: relative;
+
+
+}
+marquee{
+    margin-top: 1.5rem;
+    color: white;
+}
+.book-now-btn{
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    height: 3rem;
+    width: 15rem;
+    font-size: 2rem ;
+    font-weight: bold;
+    position: relative;
+    margin: 1rem auto;
+    display: block;
+}

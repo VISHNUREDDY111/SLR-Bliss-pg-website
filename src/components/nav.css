@@ -1,0 +1,73 @@
+/* Reset some basic styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  /* .nav-bar{
+    position: relative;
+  } */
+  /* Navbar container */
+  nav {
+    background-color: orange; /* Blue shade */
+    color: rgb(0, 0, 0);
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    /* box-shadow: 6px 5px 2px 2px grey; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  
+  /* Phone number title */
+  nav h1 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  /* Menu styles */
+  .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  /* Individual list item */
+  .menu li {
+    cursor: pointer;
+    font-weight: 500;
+    transition: text-decoration 0.2s ease;
+  }
+  nav:hover{
+    background-color: orange;
+    
+  }
+.menu-exit-btn{
+    display: none;
+  }
+.menu li:hover {
+    /* text-decoration: underline; */
+    font-weight: bolder;
+
+  }
+  @media (max-width: 600px) {
+    .menu-exit-btn{
+      display: block;
+    }
+    .navitems{
+        display: none;
+        
+    }
+
+  }
+  .navitems li a{
+    text-decoration: none;
+    color: black;
+  }

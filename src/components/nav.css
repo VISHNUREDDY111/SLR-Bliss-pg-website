@@ -1,26 +1,17 @@
-/* Reset some basic styles */
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-  /* .nav-bar{
-    position: relative;
-  } */
-  /* Navbar container */
+
   nav {
-    background-color: orange; /* Blue shade */
+    background:linear-gradient(135deg, orange ,rgb(244, 190, 27));
     color: rgb(0, 0, 0);
     padding: 1rem 3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 1.5rem;
     position: fixed;
     width: 100%;
     z-index: 1;
     /* box-shadow: 6px 5px 2px 2px grey; */
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: rgba(236, 230, 230, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
   
   /* Phone number title */
@@ -36,6 +27,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    z-index: 1;
     gap: 1.5rem;
   }
   
@@ -46,28 +38,49 @@ body {
     transition: text-decoration 0.2s ease;
   }
   nav:hover{
-    background-color: orange;
+    background-color: rgb(249, 118, 11);
     
   }
 .menu-exit-btn{
     display: none;
+    position: absolute;
+    top: 0.75rem;
+    right: 1rem;
+
   }
 .menu li:hover {
     /* text-decoration: underline; */
     font-weight: bolder;
 
   }
+
   @media (max-width: 600px) {
+    .menu ul{
+        display: none ;
+    }
     .menu-exit-btn{
       display: block;
+    
     }
-    .navitems{
-        display: none;
-        
+    nav{
+      display: block !important;
     }
 
+    .menu ul.open{
+        display: block;
+        /* background: rgb(246, 144, 18); */
+        gap: 1rem;
+        padding: 0.5rem;
+        font-weight: bolder;
+        font-size: large;
+      }
+    .open li:hover{
+        background-color: bisque;
+      }
   }
-  .navitems li a{
+  .menu li a{
     text-decoration: none;
-    color: black;
+    color:black;
   }
+
+

@@ -16,6 +16,7 @@ import Services from './services';
 function Home(){
     return(
         <div className='home'>
+            <div style={{height:'4rem'}}></div>
             <marquee class="marq" bgcolor="black" 
                  direction="left" loop="">
            
@@ -33,8 +34,10 @@ function Home(){
 
             initial="hidden"
             animate="show">
-
+                <a href='#contact-form' style={{textDecoration:'none'}}>
                 <button className='book-now-btn'>Book Now</button>
+                    
+                </a>
             </motion.div>
             <AboutUs/>
             <Services/>

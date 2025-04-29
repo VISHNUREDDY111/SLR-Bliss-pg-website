@@ -8,10 +8,11 @@ function Footer(){
         <div className="mainfooter">
             <div>
                 <ul>
-                    <li>Home</li>
-                    <li>contact</li>
-                    <li>services</li>
-                    <li>Register</li>
+                    <h5 style={{fontWeight:"bolder"}}>Quick links</h5>
+                    <a href='#'> <li>Home</li></a>
+                    <a href='#contact-form'><li>contact</li></a>
+                    <a href='#services'><li>services</li></a>
+                    <a href='https://forms.gle/jvAxDR79CA3YN6pp8'><li>Register</li></a>
                     
                 </ul>
             </div>

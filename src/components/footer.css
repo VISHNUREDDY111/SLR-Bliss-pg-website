@@ -1,19 +1,21 @@
 .mainfooter{
     font-family: "Montserrat", sans-serif;
     background: #f6d3bb;
-    color: rgb(1, 1, 2);
+    color: rgb(246, 246, 249);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #f9ece1;
+    background-color: #030303;
+    padding:1rem;
 }
-.footer-container{
-    position: relative;
-    top:3rem;
-}
+
 
 ul{
     list-style: none;
+}
+ul a{
+    text-decoration: none;
+    color: white;
 }
 .mainfooter ul li:hover{
     color: orange;
@@ -29,7 +31,7 @@ h6{
     gap: 2rem;
 }
 
-h4,li,.footer-icons{
+h4,h5,li,.footer-icons{
     text-align: center;
 }
 .copyright-div{
@@ -41,6 +43,7 @@ h4,li,.footer-icons{
     display: block;
     margin: 0 auto;
    }
+
    .footer-icons{
     justify-content: center;
 }

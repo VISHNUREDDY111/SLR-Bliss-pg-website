@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SLR-Bliss-pg-website/static/css/main.375c2072.css",
-    "main.js": "/SLR-Bliss-pg-website/static/js/main.f5693800.js",
+    "main.js": "/SLR-Bliss-pg-website/static/js/main.024ef9a5.js",
     "static/js/453.23680c50.chunk.js": "/SLR-Bliss-pg-website/static/js/453.23680c50.chunk.js",
     "static/media/gym1.png": "/SLR-Bliss-pg-website/static/media/gym1.e21047cc030b4b61d845.png",
     "static/media/img1.png": "/SLR-Bliss-pg-website/static/media/img1.b6fc3e8f1e0356b7adf2.png",
@@ -10,11 +10,11 @@
     "static/media/img2.png": "/SLR-Bliss-pg-website/static/media/img2.e5307a1010f40d263162.png",
     "index.html": "/SLR-Bliss-pg-website/index.html",
     "main.375c2072.css.map": "/SLR-Bliss-pg-website/static/css/main.375c2072.css.map",
-    "main.f5693800.js.map": "/SLR-Bliss-pg-website/static/js/main.f5693800.js.map",
+    "main.024ef9a5.js.map": "/SLR-Bliss-pg-website/static/js/main.024ef9a5.js.map",
     "453.23680c50.chunk.js.map": "/SLR-Bliss-pg-website/static/js/453.23680c50.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.375c2072.css",
-    "static/js/main.f5693800.js"
+    "static/js/main.024ef9a5.js"
   ]
 }

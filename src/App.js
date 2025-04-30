@@ -2,6 +2,7 @@ import Contact from "./components/contact";
 import Home from "./components/Home";
 import Nav from "./components/nav";
 import Footer from "./components/footer";
+import GoogleReviewsWidget from 'google-reviews-widget';
 function App() {
   return (
     <div className="app">
@@ -18,10 +19,12 @@ function App() {
         title="SLR Bliss PG Location"
       ></iframe>
     </div>
-      <Footer/>
-      {/* <Contact/> */}
-      
+    <div style={{backgroundColor:'white'}}>
+    <h2 style={{textAlign:'center',padding:'1rem'}}>What Our Guests Say</h2>
+    <GoogleReviewsWidget instanceId="cGx2gzw0TmDDLptJ32Xl" />
 
+    </div>
+      <Footer/>
     </div>
   );
 }
